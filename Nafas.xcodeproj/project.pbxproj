@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09D096E370C58A5770BC4A97 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5D95776D45381BA7F37564 /* HomeView.swift */; };
+		1897161CCEBEEDA732BDA632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE7F89B00C70ED167FC9CFF /* Assets.xcassets */; };
+		316C1FA70AC8347F503AFAC0 /* Chrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E9EFEEBC920FB9F5BB7A6 /* Chrome.swift */; };
+		4021FC30EB316D7296A17D4F /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA61ECA14C65651E17E7FB76 /* AppStore.swift */; };
+		43D9ED3E7C85DA9E0B85E3E1 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE7FB4481F9C1CF3893EA1A /* RootView.swift */; };
+		77005E07537C14D339D7537D /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A09918FBD40EF6A649A675 /* Haptics.swift */; };
+		805FE02ACDD045C1C818B008 /* BreathSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3DD03CEB9E112DFC7EA5E8 /* BreathSession.swift */; };
+		83002AC9B6B76BDC7E1551D0 /* NafasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76F57AE13C982DFDF5393B6 /* NafasApp.swift */; };
+		9BB267F67F4266DAD521E276 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2253F91D4EE1B23ABC59F3C2 /* Theme.swift */; };
+		A4BF20DB5D49BE759F6D6989 /* BreathOrb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186332EE87B8468968961298 /* BreathOrb.swift */; };
+		B4557AF599F05D1EB6A092E2 /* BreathPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5139C46FB5540A1E930A26 /* BreathPattern.swift */; };
+		B97351BCE317C709EDE5DF79 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0EE74D10C7078C6A14B171 /* SessionView.swift */; };
+		E05DAF6D9469EDAA47089844 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A16CDF574DCC9CFAF96D4D /* HistoryView.swift */; };
+		EA8F7C2D6C629B527BBCABD1 /* PatternCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C775330D464EE274725DEECE /* PatternCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		186332EE87B8468968961298 /* BreathOrb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathOrb.swift; sourceTree = "<group>"; };
+		1D0EE74D10C7078C6A14B171 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		1D3DD03CEB9E112DFC7EA5E8 /* BreathSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathSession.swift; sourceTree = "<group>"; };
+		2253F91D4EE1B23ABC59F3C2 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		2BE7FB4481F9C1CF3893EA1A /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		3A5BCF94959E428CE97EBEC4 /* Nafas.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Nafas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE7F89B00C70ED167FC9CFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D5D95776D45381BA7F37564 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		75A09918FBD40EF6A649A675 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		83C0EA44B0EF196087A14B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A90E9EFEEBC920FB9F5BB7A6 /* Chrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chrome.swift; sourceTree = "<group>"; };
+		C775330D464EE274725DEECE /* PatternCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternCard.swift; sourceTree = "<group>"; };
+		CA61ECA14C65651E17E7FB76 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		D76F57AE13C982DFDF5393B6 /* NafasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NafasApp.swift; sourceTree = "<group>"; };
+		DC5139C46FB5540A1E930A26 /* BreathPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathPattern.swift; sourceTree = "<group>"; };
+		F6A16CDF574DCC9CFAF96D4D /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		04C7E83EDC728F2130D480E8 /* Nafas */ = {
+			isa = PBXGroup;
+			children = (
+				D76F57AE13C982DFDF5393B6 /* NafasApp.swift */,
+				24B570C213E7B722ACDCA8FA /* Models */,
+				06ECEB81DAA5650619B608AC /* Resources */,
+				E7441082C3281B9B58D451F1 /* Services */,
+				B90A6BBFC2F9CBCB1484B3E3 /* Theme */,
+				08E1C9DE3D72592C412A7F7C /* Views */,
+			);
+			path = Nafas;
+			sourceTree = "<group>";
+		};
+		06ECEB81DAA5650619B608AC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5BE7F89B00C70ED167FC9CFF /* Assets.xcassets */,
+				83C0EA44B0EF196087A14B90 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		08E1C9DE3D72592C412A7F7C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F6A16CDF574DCC9CFAF96D4D /* HistoryView.swift */,
+				6D5D95776D45381BA7F37564 /* HomeView.swift */,
+				2BE7FB4481F9C1CF3893EA1A /* RootView.swift */,
+				1D0EE74D10C7078C6A14B171 /* SessionView.swift */,
+				D516CE126C034C07B10F99A5 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		24B570C213E7B722ACDCA8FA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CA61ECA14C65651E17E7FB76 /* AppStore.swift */,
+				DC5139C46FB5540A1E930A26 /* BreathPattern.swift */,
+				1D3DD03CEB9E112DFC7EA5E8 /* BreathSession.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		46D17A3B27B27793BA67D63D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BCF94959E428CE97EBEC4 /* Nafas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		596EF165DA213E7EF5230FC3 = {
+			isa = PBXGroup;
+			children = (
+				04C7E83EDC728F2130D480E8 /* Nafas */,
+				46D17A3B27B27793BA67D63D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B90A6BBFC2F9CBCB1484B3E3 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				2253F91D4EE1B23ABC59F3C2 /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		D516CE126C034C07B10F99A5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				186332EE87B8468968961298 /* BreathOrb.swift */,
+				A90E9EFEEBC920FB9F5BB7A6 /* Chrome.swift */,
+				C775330D464EE274725DEECE /* PatternCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E7441082C3281B9B58D451F1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				75A09918FBD40EF6A649A675 /* Haptics.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		265FD24565A230148FEEDEBC /* Nafas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B4BA5E320ADEFDB4EB5EC05 /* Build configuration list for PBXNativeTarget "Nafas" */;
+			buildPhases = (
+				A2FE787A45DB57E0D9E56326 /* Sources */,
+				BC3C1E587080B94082346DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nafas;
+			packageProductDependencies = (
+			);
+			productName = Nafas;
+			productReference = 3A5BCF94959E428CE97EBEC4 /* Nafas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		472D7E9EE152EF2904F47B36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					265FD24565A230148FEEDEBC = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = 5F4AE3CE9AF41EB05737C683 /* Build configuration list for PBXProject "Nafas" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 596EF165DA213E7EF5230FC3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 46D17A3B27B27793BA67D63D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				265FD24565A230148FEEDEBC /* Nafas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC3C1E587080B94082346DE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1897161CCEBEEDA732BDA632 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2FE787A45DB57E0D9E56326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4021FC30EB316D7296A17D4F /* AppStore.swift in Sources */,
+				A4BF20DB5D49BE759F6D6989 /* BreathOrb.swift in Sources */,
+				B4557AF599F05D1EB6A092E2 /* BreathPattern.swift in Sources */,
+				805FE02ACDD045C1C818B008 /* BreathSession.swift in Sources */,
+				316C1FA70AC8347F503AFAC0 /* Chrome.swift in Sources */,
+				77005E07537C14D339D7537D /* Haptics.swift in Sources */,
+				E05DAF6D9469EDAA47089844 /* HistoryView.swift in Sources */,
+				09D096E370C58A5770BC4A97 /* HomeView.swift in Sources */,
+				83002AC9B6B76BDC7E1551D0 /* NafasApp.swift in Sources */,
+				EA8F7C2D6C629B527BBCABD1 /* PatternCard.swift in Sources */,
+				43D9ED3E7C85DA9E0B85E3E1 /* RootView.swift in Sources */,
+				B97351BCE317C709EDE5DF79 /* SessionView.swift in Sources */,
+				9BB267F67F4266DAD521E276 /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5FDCAF585C8C6D3FAFF1BAAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		69A86CF832825E6EF30CD275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		99D6CC112C3D836A002BDF0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Nafas/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.midomj.nafas;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CA850408807ED034830CD360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Nafas/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.midomj.nafas;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B4BA5E320ADEFDB4EB5EC05 /* Build configuration list for PBXNativeTarget "Nafas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA850408807ED034830CD360 /* Debug */,
+				99D6CC112C3D836A002BDF0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5F4AE3CE9AF41EB05737C683 /* Build configuration list for PBXProject "Nafas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A86CF832825E6EF30CD275 /* Debug */,
+				5FDCAF585C8C6D3FAFF1BAAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 472D7E9EE152EF2904F47B36 /* Project object */;
+}
