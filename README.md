@@ -12,11 +12,20 @@ Nafas (Arabic for *breath*) guides you through proven breathing techniques to he
 
 ## Screenshots
 
-> _Add your screenshots here — drag images into this section or place them in a `Screenshots/` folder and reference them below._
-
-| Home | Session | Completion | History |
-|------|---------|------------|---------|
-| ![Home](Screenshots/home.png) | ![Session](Screenshots/session.png) | ![Completion](Screenshots/completion.png) | ![History](Screenshots/history.png) |
+<p align="center">
+  <img src="Screenshots/home.png" width="18%" alt="Home" />
+  &nbsp;
+  <img src="Screenshots/countdown.png" width="18%" alt="Countdown" />
+  &nbsp;
+  <img src="Screenshots/session.png" width="18%" alt="Session" />
+  &nbsp;
+  <img src="Screenshots/completion.png" width="18%" alt="Completion" />
+  &nbsp;
+  <img src="Screenshots/history.png" width="18%" alt="History" />
+</p>
+<p align="center">
+  <sub>Home &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Countdown &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Session &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completion &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; History</sub>
+</p>
 
 ---
 
